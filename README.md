@@ -117,6 +117,12 @@ config config status.showUntrackedFiles no
 ```shell
 ssh-keygen -o -a 100 -t ed25519 -f ~/.ssh/id_ed25519 -C "viz@soni"
 ```
+- Adding authorized keys to guest machine:
+```shell
+mkdir -p ~/.ssh
+echo "your_public_key" >> ~/.ssh/authorized_keys
+
+```
 
 - Add to `~/.bashrc` to auto attach to tmux
 ```bash
