@@ -12,7 +12,7 @@ data:text/html,<html contenteditable onload="document.body.innerHTML = localStor
 ```javascript
 javascript:(() => {  
     const message = document.getSelection().toString().replace(/(<br>)|(<br\/>)/, '\n');
-    fetch('https://ntfy.sh/vizext', { method: 'POST', body: message || window.location }); 
+    fetch('https://ntfy.sh/asext', { method: 'POST', body: message || window.location }); 
 })();
 ```
 
@@ -115,7 +115,7 @@ config config status.showUntrackedFiles no
 
 - Generate SSH Keys:
 ```shell
-ssh-keygen -o -a 100 -t ed25519 -f ~/.ssh/id_ed25519 -C "viz@soni"
+ssh-keygen -o -a 100 -t ed25519 -f ~/.ssh/id_ed25519 -C "abc-keyname"
 ```
 - Adding authorized keys to guest machine:
 ```shell
