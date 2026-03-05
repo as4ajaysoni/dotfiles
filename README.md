@@ -4,7 +4,7 @@ SSH Public Keys: https://github.com/as4ajaysoni.keys
 
 ## Windows debloat:
 - Usage:
-- On Windows (run as Administrator):
+- On Windows (run Powershell as Administrator):
 
 ```powershell
 .\debloat-windows.ps1           # Launch GUI
