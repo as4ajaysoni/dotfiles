@@ -2,6 +2,14 @@
 
 SSH Public Keys: https://github.com/as4ajaysoni.keys
 
+## Windows debloat:
+Usage:
+On Windows (run as Administrator):
+.\debloat-windows.ps1           # Launch GUI
+.\debloat-windows.ps1 -help    # Show documentation
+.\debloat-windows.ps1 -tweaks  # CLI mode with recommended tweaks
+
+
 ## Bookmarklets
 
 Notepad in Browser Tab
